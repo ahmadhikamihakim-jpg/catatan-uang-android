@@ -1,0 +1,19 @@
+# Hasil build pipeline manual
+/build/
+/build-manual/
+/build-firebase/
+*.apk
+*.idsig
+*.dex
+*.class
+*.log
+
+# Konfigurasi Firebase milik sendiri — jangan diterbitkan
+google-services.json
+
+# Android / IDE
+.gradle/
+local.properties
+.idea/
+*.iml
+.DS_Store

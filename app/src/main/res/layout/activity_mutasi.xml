@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:background="#F5F7FA">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="vertical" android:background="@drawable/bg_header" android:padding="16dp">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="🧾 Mutasi" android:textColor="#FFFFFF" android:textSize="20sp" android:textStyle="bold" />
+        <EditText android:id="@+id/cari" android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_marginTop="10dp" android:background="@drawable/bg_cari" android:padding="12dp"
+            android:hint="🔍 Cari kategori atau catatan…" android:textSize="15sp" android:singleLine="true" />
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:layout_marginTop="10dp">
+            <Button android:id="@+id/f_semua" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="Semua" android:minHeight="40dp" />
+            <Button android:id="@+id/f_masuk" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="Masuk" android:layout_marginStart="6dp" android:minHeight="40dp" />
+            <Button android:id="@+id/f_keluar" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="Keluar" android:layout_marginStart="6dp" android:minHeight="40dp" />
+        </LinearLayout>
+    </LinearLayout>
+    <TextView android:id="@+id/ringkas" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:paddingStart="14dp" android:paddingEnd="14dp" android:paddingTop="10dp" android:paddingBottom="4dp"
+        android:textColor="#0B2239" android:textSize="13.5sp" android:textStyle="bold" />
+    <ListView android:id="@+id/list" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"
+        android:divider="#E3EAF3" android:dividerHeight="1dp" />
+    <TextView android:id="@+id/empty" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:padding="16dp" android:gravity="center" android:textColor="#5B7186" android:visibility="gone"
+        android:text="Tidak ada transaksi yang cocok. Coba kata kunci lain." />
+    <Button android:id="@+id/btn_export" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:layout_margin="12dp" android:text="⬇ Export Hasil Ini (PDF)" android:background="@drawable/bg_tombol_biru"
+        android:textColor="#FFFFFF" android:minHeight="48dp" />
+    <include layout="@layout/nav_bawah" />
+</LinearLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
+    <View android:layout_width="match_parent" android:layout_height="1dp" android:background="#E3EAF3" />
+    <LinearLayout android:layout_width="match_parent" android:layout_height="62dp" android:orientation="horizontal"
+        android:background="#FFFFFF" android:gravity="center_vertical">
+        <LinearLayout android:id="@+id/nav_beranda" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1"
+            android:orientation="vertical" android:gravity="center" android:padding="6dp" android:clickable="true" android:focusable="true">
+            <ImageView android:id="@+id/nav_ic_beranda" android:layout_width="24dp" android:layout_height="24dp" android:src="@drawable/ic_nav_home" android:contentDescription="Beranda" />
+            <TextView android:id="@+id/nav_tx_beranda" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="Beranda" android:textSize="11sp" android:layout_marginTop="2dp" />
+        </LinearLayout>
+        <LinearLayout android:id="@+id/nav_mutasi" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1"
+            android:orientation="vertical" android:gravity="center" android:padding="6dp" android:clickable="true" android:focusable="true">
+            <ImageView android:id="@+id/nav_ic_mutasi" android:layout_width="24dp" android:layout_height="24dp" android:src="@drawable/ic_nav_mutasi" android:contentDescription="Mutasi" />
+            <TextView android:id="@+id/nav_tx_mutasi" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="Mutasi" android:textSize="11sp" android:layout_marginTop="2dp" />
+        </LinearLayout>
+        <LinearLayout android:id="@+id/nav_cashflow" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1"
+            android:orientation="vertical" android:gravity="center" android:padding="6dp" android:clickable="true" android:focusable="true">
+            <ImageView android:id="@+id/nav_ic_cashflow" android:layout_width="24dp" android:layout_height="24dp" android:src="@drawable/ic_nav_chart" android:contentDescription="Cash Flow" />
+            <TextView android:id="@+id/nav_tx_cashflow" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="Cash Flow" android:textSize="11sp" android:layout_marginTop="2dp" />
+        </LinearLayout>
+        <LinearLayout android:id="@+id/nav_aktivitas" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1"
+            android:orientation="vertical" android:gravity="center" android:padding="6dp" android:clickable="true" android:focusable="true">
+            <ImageView android:id="@+id/nav_ic_aktivitas" android:layout_width="24dp" android:layout_height="24dp" android:src="@drawable/ic_nav_aktivitas" android:contentDescription="Aktivitas" />
+            <TextView android:id="@+id/nav_tx_aktivitas" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="Aktivitas" android:textSize="11sp" android:layout_marginTop="2dp" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

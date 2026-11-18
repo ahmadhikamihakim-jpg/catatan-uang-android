@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:background="@drawable/bg_header"
+    android:gravity="center" android:padding="28dp">
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="💰" android:textSize="54sp" />
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="RENS Kitchen" android:textColor="#FFFFFF" android:textSize="26sp"
+        android:textStyle="bold" android:layout_marginTop="8dp" />
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="Masuk dengan akun Google agar catatanmu tersimpan aman di Firebase dan bisa dibuka kapan saja."
+        android:textColor="#CFE6F7" android:textSize="14sp" android:gravity="center"
+        android:layout_marginTop="8dp" android:layout_marginBottom="28dp" />
+    <Button android:id="@+id/btn_google" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="Masuk dengan Google" android:textSize="16sp" android:padding="12dp" android:background="@drawable/bg_tombol_biru" android:textColor="#FFFFFF" />
+    <TextView android:id="@+id/login_status" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:textColor="#FDE68A" android:textSize="13sp" android:gravity="center" android:layout_marginTop="16dp" />
+    <Button android:id="@+id/btn_lokal" android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="Lewati — pakai mode lokal saja" android:textColor="#CFE6F7"
+        android:background="@null" android:layout_marginTop="26dp" />
+</LinearLayout>

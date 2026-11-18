@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:background="#F5F7FA">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="18dp" android:layout_margin="14dp" android:background="@drawable/bg_kartu">
+        <TextView android:id="@+id/f_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="20sp" android:textStyle="bold" android:textColor="#0B2239" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Jumlah (Rp)" android:layout_marginTop="16dp" android:textStyle="bold" />
+        <EditText android:id="@+id/f_jumlah" android:layout_width="match_parent" android:layout_height="wrap_content" android:inputType="number" android:hint="cth: 50.000" android:textSize="18sp" android:background="@drawable/bg_input" android:padding="12dp" android:layout_marginTop="6dp" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Kategori" android:layout_marginTop="14dp" android:textStyle="bold" />
+        <Spinner android:id="@+id/f_kategori" android:layout_width="match_parent" android:layout_height="wrap_content" android:background="@drawable/bg_input" android:padding="6dp" android:layout_marginTop="6dp" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Tanggal" android:layout_marginTop="14dp" android:textStyle="bold" />
+        <Button android:id="@+id/f_tanggal" android:layout_width="match_parent" android:layout_height="wrap_content" android:background="@drawable/bg_tombol_biru" android:textColor="#FFFFFF" android:layout_marginTop="6dp" android:minHeight="48dp" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Catatan (bebas)" android:layout_marginTop="14dp" android:textStyle="bold" />
+        <EditText android:id="@+id/f_catatan" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="cth: gaji bulan ini / bensin motor" android:background="@drawable/bg_input" android:padding="12dp" android:layout_marginTop="6dp" />
+        <Button android:id="@+id/f_simpan" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="💾 Simpan" android:layout_marginTop="22dp" android:background="@drawable/bg_tombol_biru" android:textColor="#FFFFFF" android:minHeight="52dp" />
+        <Button android:id="@+id/f_hapus" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="🗑️ Hapus Transaksi" android:layout_marginTop="8dp" android:visibility="gone" android:background="@drawable/bg_tombol_biru" android:textColor="#FFFFFF" android:minHeight="50dp" />
+    </LinearLayout>
+</ScrollView>
